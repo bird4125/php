@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* 태그 */
+html,body{margin:0;padding:0}
+html{font-size:25px}
+body{font-size:0.52rem;font-family:'Nanum Gothic','Malgun Gothic','Myriad','arial','宋體','simsun','Dotum'}
+h1,h2,h3,h4,h5,h6,form,fieldset,img{margin:0;padding:0;border:0;font-family:inherit}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;margin:0;padding:0}
+ul,li,dl,dt,dd{margin:0;padding:0;list-style:none}
+legend{position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
+label,input,button,select,img{vertical-align:middle;font-size:13px;transition:0.5s;font-family:inherit}
+input[type='submit'],input[type='button'],input[type='reset'],button{cursor:pointer;padding:0 0.8rem;letter-spacing:-1px;font-weight:bold;height:1.28rem;box-shadow:1px 1px 3px rgba(0,0,0,0.3);font-family:inherit}
+input[type="text"],input[type="password"],input[type="number"],input[type="tel"]{height:1.2rem;line-height:1.2rem;font-size:0.6rem;padding:0 5px;border:1px solid #bebebe;transition:0.3s;font-family:inherit}
+input[type="text"]:focus,input[type="password"]:focus,input[type="number"]:focus,input[type="tel"]:focus{border-color:#fff;box-shadow:0px 0px 3px #000;background:#eff}
+select{line-height:1.2rem;height:1.2rem;font-size:0.6rem}
+textarea{font-size:0.6rem;padding:5px;vertical-align:middle;font-family:inherit}
+p{margin:0;padding:0}
+a{color:inherit;text-decoration:none;transition:.3s}
+a:hover{text-decoration:underline}
+a[class*="btn"],button[class*="btn"]{display:inline-block;text-align:center;box-shadow:1px 1px 3px rgba(0,0,0,0.3);text-decoration:none}
+img{max-width:100%;max-height:100%}
+/* layer popup */
+.auto-center,#header>div,#main-content{width:1200px;margin:0 auto}
+#logo{text-align:center;line-height:50px}
+#logo a{color:#06f;font-size:24px;padding:15px 0;text-decoration:none}
+#gnb{border:solid #ddd;border-width:1px 0;text-align:center;line-height:50px}
+#gnb>ul{display:inline-block;vertical-align:bottom}
+#gnb>ul:after{content:"";display:block;clear:both}
+#gnb>ul>li{float:left}
+#gnb>ul>li>a{display:block;font-size:13px;padding:0 50px;text-decoration:none;transition:.3s;font-weight:bold;color:#444}
+#gnb>ul>li>a:hover{background:#09f;color:#fff}
+#footer{border-top:1px solid #eee;text-align:center;text-transform:uppercase;color:#666;line-height:80px}
+#main-content{border:solid #ddd;border-width:0 1px;padding-top:30px}
+#main-content>h1{font-size:30px;background:#f5f5f5;margin:30px 0 30px -60px;width:1320px;box-sizing:border-box;padding:30px 60px}
+#main-content>section{padding:30px}
+#main-content>section>h2{font-size:25px;border-bottom:1px dotted #ddd;line-height:200%}
+#main-content>section>div{min-height:300px;padding:30px 0}
+#main-content>section>div:before{content:"공사중"}
+/* class */
+.al_l{text-align:left}
+.al_c{text-align:center}
+.al_r{text-align:right}
+.fl{float:left}
+.fr{float:right}
+.fn{float:none}
+span.middle{display:inline-block;height:100%;width:0;font-size:0;vertical-align:middle}
+span.middle + *{display:inline-block;vertical-align:middle}
+span.middle.all ~ *{display:inline-block;vertical-align:middle}
+.btn_group{margin-top:20px;text-align:right}
+.btn_group.center{text-align:center}
+.btn_group.left{text-align:left}
+.btn-default,
+.btn-submit{display:inline-block;padding:0 20px;background:#09f;font-size:13px;color:#fff;font-weight:bold;border:none;vertical-align:middle;height:30px;line-height:30px;box-sizing:border-box;text-decoration:none}
+.btn-default{background:#444}
+.btn-submit{background:#09f}
+.table{border-top:2px solid #666}
+.table>.tr{border-bottom:1px solid #ddd;line-height:30px}
+.table>.tr:after{content:"";display:block;clear:both}
+.table>.tr>div{float:left;box-sizing:border-box;padding:5px 10px}
+.table>.tr>.lbl{width:20%;font-weight:bold}
+.table>.tr>.lbl label{display:block;vertical-align:middle;cursor:pointer}
+.table>.tr>.desc{width:80%}
+.table>.tr>.desc.content{min-height:300px}

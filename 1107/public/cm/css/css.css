@@ -1,0 +1,218 @@
+/* css */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: "나눔고딕"; }
+a { text-decoration: none; color: black; }
+
+header { width: 100%; overflow: hidden; padding: 0.5% 0; }
+header > #searchbox > #loginbox { width: 490px; overflow: hidden; margin: 20px auto; float: right; }
+header > #searchbox > #loginbox > ul { list-style: none; float: right; width: 70%; }
+header > #searchbox > #loginbox > ul > li { width: 22%; text-align: center; margin: 0 1.5%; float: left; }
+header > #searchbox > #loginbox > ul > li > a { font-size: 13px; }
+header > #searchbox { width: 1200px; margin: 0 auto; overflow: hidden; }
+header > #searchbox > #logo { width: 20%; float: left; overflow: hidden; margin-left: 2%; }
+header > #searchbox > #logo > a > img { width: 100%; height: 100%; padding: 2% 0; }
+header > #searchbox > #wordbox { width: 370px; height: 45px; border-radius: 50px; border: none; padding: 0 10px; float: left; margin: 1% 3%; background: white; border: 3px solid #f18024; overflow: hidden; }
+header > #searchbox > #wordbox > input { width: 82%; border: none; padding: 3% 0; margin: 1%; float: left; }
+header > #searchbox > #wordbox > #searchBtn { width: 15%; height: 40px; background: url(../../img/search.png); background-size: cover; float: right; background-position: top; margin-top: -3px; }
+
+header > nav { width: 100%; background: #f18024; overflow: hidden; margin-top: 0.5%; }
+header > nav > ul { list-style: none; width: 1200px; margin: 0 auto; }
+header > nav > ul > li { float: left; width: 25%; text-align: center; padding: 13px 0; font-weight: bold; font-size: 18px; }
+header > nav > ul > li > a { color: white; }
+
+/* visual */
+#visual { background: #f2f2f2; width: 100%; height: 400px; margin-top: -10px; }
+#visual > #visualbox { width: 1200px; margin: 0 auto; }
+#visual > #visualbox > img { padding: 0; margin: 0; }
+
+#contents { width: 100%; overflow: hidden; }
+#contents > #best { width: 1200px; margin: 0 auto; overflow: hidden; padding: 20px 0; }
+#contents > #best > .icons { width: 100%; overflow: hidden; }
+#contents > #best > .icons > li { width: 24%; text-align: center; margin-top: 10px; }
+#contents > #best > .icons > li > img { width: 40px; height: 40px; }
+#contents > #best > ul { width: 100%; overflow: hidden; padding: 10px 0; }
+#contents > #best > ul > li { width: 24%; float: left; list-style: none; margin: 0 0.5%; }
+#contents > #best > ul > li > img { width: 100%; height: 180px; }
+#contents > #best > ul > li > div { width: 100%; height: 120px; padding-left: 5px; padding-top: 10px; }
+#contents > #best > ul > li > div > a > span { font-size: 17px; font-weight: bold; }
+#contents > #best > ul > li > div > .info { font-size: 15px; line-height: 20px; margin: 10px 0; height: 40px; }
+#contents > #best > ul > li > div > h3 { color: #f17324; font-weight: bold; font-size: 16px; float: left; }
+#contents > #best > ul > li > div > h4 { float: right; color: #502308; }
+
+#contents > .item { width: 1200px; margin: 0 auto; overflow: hidden; padding: 20px 0; border-top: 1px solid #ffa165; }
+#contents > .item > h2 { float: left; }
+#contents > .item > a { float: right; color: #f17324; font-weight: bold; }
+#contents > .item > ul { width: 100%; overflow: hidden; padding: 20px 0; }
+#contents > .item > ul > li { width: 24%; float: left; list-style: none; margin: 2% 0.5%; }
+#contents > .item > ul > li > img { width: 100%; height: 180px; }
+#contents > .item > ul > li > div { width: 100%; height: 120px; padding-left: 5px; padding-top: 10px; }
+#contents > .item > ul > li > div > a > span { font-size: 17px; font-weight: bold; }
+#contents > .item > ul > li > div > a > img  { vertical-align: middle; margin-left: 10px; }
+#contents > .item > ul > li > div > .info { font-size: 15px; line-height: 20px; margin: 10px 0; height: 40px; }
+#contents > .item > ul > li > div > h3 { color: #f17324; font-weight: bold; font-size: 16px; float: left; }
+#contents > .item > ul > li > div > .view { float: right; margin-right: 5px; }
+#contents > .item2 { border-top: none !important; }
+#contents > .item > .btns { width: 100%; overflow: hidden; padding-top: 40px; }
+#contents > .item > .btns > ul > li { float: left;  list-style: none; width: 31%; text-align: center; }
+#contents > .item > .btns > ul > li:nth-child(2) { margin: 0 calc((100% - 31% * 3) / 2); }
+#contents > .item > .btns > ul > li > button { background: #f17324; color: white; width: 150px; height: 40px; border: none; font-size: 17px; transition: all 0.3s;	}
+#contents > .item > .btns > ul > li > button:hover { background: white; border: #f17324; color: #f17324; border: 1px solid #f17324; }
+
+footer { width: 100%; background: #ededed; overflow: hidden; padding: 15px 0; }
+footer > div { width: 1200px; margin: 0 auto; }
+footer > div > img { width: 20%; float: left; }
+footer > div > span { float: right; line-height: 50px; font-weight: bold; font-size: 17px; color: #f17324; }
+
+/* login */
+#loginbox { width: 1200px; margin: 0 auto; overflow: hidden; }
+#loginbox > h2 { text-align: center; padding: 30px 0; }
+#loginbox > #login { width: 50%; overflow: hidden; margin: 15px auto; margin-bottom: 90px; }
+#loginbox > #login > ul { width: 100%; overflow: hidden; margin-bottom: 15px; }
+#loginbox > #login > ul > li { list-style: none; float: left; width: 100%; text-align: center; padding: 15px 0; cursor: pointer; border: 1px solid #f17324; color: #f17324; font-weight: bold; }
+#loginbox > #login > form > #members { width: 100%; }
+#loginbox > #login > form > #members > input { width: 100%; height: 45px; margin: 8px auto; padding-left: 10px; }
+#loginbox > #login > form > #nomembers { display: none; width: 100%; }
+#loginbox > #login > form > #nomembers > input { width: 100%; height: 45px; margin: 8px auto; padding-left: 10px; }
+#loginbox > #login > form > #loginBtn { background: #f17324; border: none; width: 100%; color: white; padding: 15px 0; margin-top: 7px; font-weight: bold; font-size: 16px; }
+#loginbox > #login > form > #nmemberBuy { border: 1px solid #f17324; color: #f17324; width: 100%; padding: 15px 0; background: white; margin: 20px 0; font-weight: bold; }
+
+/*  join */
+#joinbox { width: 1200px; margin: 0 auto; overflow: hidden; }
+#joinbox > h2 { text-align: center; padding: 30px 0; }
+#joinbox > form { width: 50%; overflow: hidden; margin: 10px auto; margin-bottom: 70px; }
+#joinbox > form > input { width: 100%; margin: 8px 0; height: 45px; padding-left: 10px; margin-bottom: 15px;  }
+#joinbox > form > #joinBtn { background: #f17324; border: none; width: 100%; color: white; padding: 15px 0; margin-top: 7px; font-weight: bold; font-size: 16px; }
+#joinbox > form > .num2 { width: 31.6%; height: 35px; }
+#joinbox > form > select { height: 35px; width: 31.6%; padding-left: 10px; }
+#joinbox > form > #capcha { width: 51.7%; }
+#joinbox > form > img { vertical-align: middle; }
+#joinbox > form > #reClick { background: none; border: 1px solid #f17324; color: #f17324; width: 120px; height: 45px; margin: 0 10px; }
+
+/*  view 페이지 */
+.view { width: 1100px; overflow: hidden; margin: 0 auto; padding: 30px 0; margin-bottom: 40px; }
+.view > img { float: left; width: 35%; }
+.view > .proview { float: right; width: 60%; }
+.view > .proview > h3 { font-size: 25px; padding-bottom: 10px; }
+.view > .proview > .info { font-size: 15px; width: 80%; line-height: 20px; margin-bottom: 10px; }
+.view > .proview > h4 { font-weight: normal; margin: 5px 0; }
+.view > .proview > h4 > span { font-weight: bold; color: #f17324; }
+.view > .proview > .totalBox { width: 100%; overflow: hidden; padding: 15px 5px; border-bottom: 1px solid #c7c7c7; border-top: 1px solid #c7c7c7; margin: 15px 0; }
+.view > .proview > .totalBox > .title { float: left; }
+.view > .proview > .totalBox > .quantity { float: right; width: 70%; }
+.view > .proview > .totalBox > .quantity > * { float: left; }
+.view > .proview > .totalBox > .quantity > div > button { width: 25px; height: 25px; background: none; border: none; border: 1px solid #f17324; color: #f17324; }
+.view > .proview > .totalBox > .quantity > div > .up { margin-left: 10px; }
+.view > .proview > .totalBox > .quantity > input { width: 45%;  height: 25px; padding-left: 10px; }
+.view > .total { float: right; width: 60%; overflow: hidden; }
+.view > .total > .left { float: left; font-size: 18px; font-weight: bold; }
+.view > .total > .right { float: right; font-size: 18px; font-weight: bold; color: #f17324; }
+.view > .total > #carts { clear: both; margin: 40px 0; }
+.view > .total > #carts > #buy { width: 48%; float: left; background: #f17324; border: none; padding: 15px 0; color: white; font-weight: bold; font-size: 16px; }
+.view > .total > #carts > #gocart { width: 48%; float: right; background: white; border: 1px solid #f17324; padding: 15px 0; color: #f17324; font-weight: bold; font-size: 16px; }
+#contents > .item > ul > li > div > .views { float: right; }
+
+/*  view 페이지 리뷰 */
+#review { width: 1100px; margin: 0 auto; overflow: hidden; margin-bottom: 50px; border-top: 1px solid #c7c7c7; }
+#review > h3 { padding: 15px 0; border-bottom: 1px solid #c7c7c7; padding-left: 10px; }
+#review > form { padding: 5px 10px; }
+#review > form > div { width: 100%; overflow: hidden; }
+#review > form > div > h4 { width: 5%; text-align: center; float: left; font-weight: bold; padding: 10px 0; }
+#review > form > div > p { float: left; padding: 7px 0; margin-left: 15px;  font-weight: bold; color: #aaa; }
+#review > form > div > select { float: left; padding: 5px; margin-top: 2px; width: 20%; }
+#review > form > div > #title { float: left; padding: 5px; margin-top: 2px; width: 20%; }
+#review > form > textarea { float: none; width: 85%; padding: 10px; margin-left: 10px; height: 60px; }
+#review > form > button { width: 150px; height: 60px; float: right; background: white; border: 1px solid #f17324; color: #f17324; }
+#review > h3 { clear: both; padding: 15px 0; border-top: 1px solid #c7c7c7; padding-left: 10px;}
+#review > h2 { padding: 20px 0; }
+#review > ul { width: 100%; overflow: hidden; 20%; }
+#review > ul > li:first-child { border-top: none; }
+#review > ul > li { overflow: hidden; list-style: none; padding: 10px; border-top: 1px solid #c7c7c7; border-bottom: 1px solid #c7c7c7; }
+#review > ul > li:first-child { border-bottom: none; }
+#review > ul > li:last-child { border-top: none; }
+#review > ul > li > h4 { font-size: 18px; padding: 10px 0; border-bottom: 1px solid #b1b1b1; margin-bottom: 13px; }
+#review > ul > li > h4 > span { margin-left: 10px; }
+#review > ul > li > .texts { float: left; width: 70%; }
+#review > ul > li > #reinfo { float: right; width: 25%; }
+#review > ul > li > #reinfo > .writer { width: 100%; overflow: hidden; border-bottom: 1px solid #c7c7c7; padding-bottom: 8px; }
+#review > ul > li > #reinfo > .writer > .retitle { color: #a2a2a2; line-height: 25px; }
+#review > ul > li > #reinfo > .wdate { width: 100%; overflow: hidden; padding-top: 8px;}
+#review > ul > li > #reinfo > .wdate > .retitle { color: #a2a2a2; line-height: 25px; }
+
+/* mypage */
+#mypage { width: 1100px; margin: 0 auto; overflow: hidden; margin-bottom: 70px; }
+#mypage > h2 { text-align: center; padding-top: 20px; }
+#mypage > h4 { text-align: center; }
+#mypage > #infobox { width: 55%; overflow: hidden; margin: 20px auto; border: 4px solid #c7c7c7; padding: 0 10px; }
+#mypage > #infobox > #myinfo { width:  60%; padding: 20px 0; overflow: hidden; margin: 0 auto; float: left; line-height: 23px; margin-left: 20px; }
+#mypage > #infobox > #myinfo > span { font-weight: bold; }
+#mypage > #infobox > #mypoint { width: 30%; overflow: hidden; float: right; }
+#mypage > #infobox > #mypoint > table { width: 100%; overflow: hidden; margin-top: 40px; }
+#mypage > #infobox > #mypoint > table > tr > td { padding: 20px; }
+dfsf #mypoint > table > tr > .trfirst { width: 30%; }
+#mypage > ul { width: 80%; overflow: hidden; margin: 50px auto; }
+#mypage > ul > li { list-style: none; width: 31%;  height: 90px;  float: left; margin: 0 1.15%; text-align: center; padding-top: 18px; border: 1px solid #f17324; }
+#mypage > ul > li > h3 { color: #f17324; padding-bottom: 5px; }
+#mypage > ul > li > a { color: #4b4b4b; }
+
+/*  오른쪽 메뉴 */
+#rightMenu { width: 300px; height: 1080px; position: fixed; top: 0; right: 0; background: white; border-left: 1px solid #b2b2b2; text-align: center; }
+#rightMenu > #intro { font-size: 17px; padding: 15px 0; }
+#rightMenu > form { margin-bottom: 20px; }
+#rightMenu > form > input { width: 90%; height: 40px; margin: 5px 0; padding-left: 5px; }
+#rightMenu > form > button { background: #f17324; color: white; border: none; width: 90%; height: 40px; margin: 5px 0; font-size: 16px; }
+#rightMenu > h3 { padding: 5px 0; padding-top: 20px; border-top : 1px solid #c7c7c7; color: #f17324; }
+#rightMenu > ul { width: 100%; overflow: hidden; text-align: center; margin: 0 auto; }
+#rightMenu > ul > li { list-style: none; margin: 5px 0; padding-bottom: 20px; border-bottom: 1px solid #c7c7c7; }
+#rightMenu > ul > li > img { padding: 5px 0; }
+#rightMenu > #rightLogin { padding: 10px 0; padding-bottom: 10px; line-height: 23px; }
+#rightMenu > #rightLogin > span { color: #f17324; font-weight: bold; }
+#rightMenu > #rightLogin > #gomypage { color: #f17324; background: none; border: 1px solid #f17324; font-weight: bold; font-size: 15px; width: 150px; height: 40px; margin: 20px 0; cursor: pointer; }
+#rightMenu > #rightLogin > #logout { color: white; background: #f17324; font-weight: bold; font-size: 15px; width: 150px; height: 40px; margin: 5px 0; cursor: pointer; border: none; 
+}
+
+/* 결제  */
+.cart { width: 60%; margin: 0 auto; overflow: hidden; }
+.cart > h2 { margin-top: 20px; }
+.cart > table { width: 100%; text-align: center; margin: 0 auto; margin-top: 20px; }
+.cart > table .last { background: #e3e3e3; height: 50px; }
+.cart > table tr td:first-child { width: 5%; }
+.cart > table tr td:nth-child(2) { width: 30%; }
+.cart > table tr td { border-bottom: 1px solid #c7c7c7; }
+
+/* 결제 */
+.buy { width: 60%; margin: 20px auto; overflow: hidden; }
+.buy > h3 { margin: 20px 0; }
+.buy > table { width: 100%; }
+.buy > table tr th:first-child { height: 55px; }
+.buy > table tr th { border-bottom: 1px solid #dddddd; }
+.buy > table tr:first-child th:first-child { border-top: 2px solid #ccc; }
+.buy > table tr:last-child th:first-child { border-bottom: 2px solid #ccc; }
+.buy > table tr:first-child td:nth-child(2) { border-top: 2px solid #ccc; }
+.buy > table tr:last-child td:last-child { border-bottom: 2px solid #ccc; }
+.buy > table tr td { padding-left: 10px; border-bottom: 1px solid #ddd; }
+.buy > table tr #lasts { width: 20%; background: #eaeaea; border-top: 2px solid #ccc; border-bottom: 2px solid #ccc; text-align: center; }
+.buy > table tr #lasts > span { color: #f17324; font-weight: bold; font-size: 17px; }
+.buy > table tr #lasts > button { width: 150px; height: 40px; background: #f17324; color: white; font-size: 16px;
+	margin: 10px; border: none; transition: all 0.3s; }
+.buy > table tr #lasts > button:hover { background: white; border: 1px solid #f17324; color: #f17324; }
+.buy > #infos tr td input { height: 35px; width: 200px; padding-left: 10px; }
+
+/* 관리자 페이지 */
+#c1 > .box { width: 1200px; margin: 0 auto; }
+#c1 > .box > h2 { margin: 20px 0; }
+#c1 > .box > .reserved { width: 100%; text-align: center; }
+#c1 > .box > .reserved > table { width: 100%; margin: 20px 0; }
+#c1 > .box > .reserved > table tr th { background: #eee; height: 45px; border-top: 2px solid #ccc; border-bottom: 1px solid #ccc; }
+#c1 > .box > .reserved > table tr th { background: #eee; height: 45px; border-top: 2px solid #ccc; border-bottom: 1px solid #ccc; }
+#c1 > .box > .reserved > table tr td { height: 45px; border-bottom: 1px solid #ccc; }
+#c1 > .box > .reserved > table tr td button { width: 100px; height: 35px; background: white; color: #f17324; border: 1px solid #f17324; font-weight: bold; }
+#c1 > .box > #chart { width: 100%; min-height: 400px; margin: 20px 0; padding: 10px; }
+#c1 > .box > #chart > #first { width: 47%; height: 420px; float: left; margin-left: 20px; border: 1px solid #ccc; }
+#c1 > .box > #chart > #first > img { width: 370px; height: 370px; }
+#c1 > .box > #chart > #second { width: 47%; height: 420px; float: right; margin-right: 20px; border: 1px solid #ccc; }
+#c1 > .box > .teenager { width: 100%; text-align: center; padding: 50px 0; }
+#c1 > .box > .teenager > table { width: 100%; margin: 20px 0; margin-bottom: 50px; }
+#c1 > .box > .teenager > table tr th { background: #eee; height: 45px; border-top: 2px solid #ccc; border-bottom: 1px solid #ccc; }
+#c1 > .box > .teenager > table tr th { background: #eee; height: 45px; border-top: 2px solid #ccc; border-bottom: 1px solid #ccc; }
+#c1 > .box > .teenager > table tr td { height: 45px; border-bottom: 1px solid #ccc; }
+#c1 > .box > .teenager > table tr td:nth-child(2) { width: 15%; }
+#c1 > .box > .teenager > table tr td button { width: 100px; height: 35px; background: white; color: #f17324; border: 1px solid #f17324; font-weight: bold; }
